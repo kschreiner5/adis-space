@@ -1,0 +1,342 @@
+body {
+    background-color:black;
+    color:white;
+    font-family:century;
+    transition:filter 4s;
+}
+body:active {
+    filter:brightness(0%)
+}
+.a {
+    width:1890px;
+}
+.footer {
+    background-color:lightgray;
+    color:blue;
+    height:55px;
+    font-size:45px;
+}
+.space {
+    color:lightgray;
+}
+.heading {
+    font-size:100px;
+    text-decoration:underline;
+}
+.subheading {
+    font-size:80px;
+    font-style:italic;
+}
+p, ul {
+    max-width:1000px;
+    font-size:30px;
+}
+
+#a2, #b2, #c2, #d2, #e2, #f2, #g2, #h2 {
+    background-color:gray;
+    border-radius:5px;
+    padding:2px;    
+}
+#a2:hover, #b2:hover, #c2:hover, #d2:hover, #e2:hover, #f2:hover, #g2:hover, #h2:hover {
+    opacity:1;
+}
+#a1, #a2, #b1, #b2, #c1, #c2, #d1, #d2, #e1, #e2, #f1, #f2, #g1, #g2, #h1, #h2{
+    position: absolute;
+    opacity:0;
+}
+
+@keyframes a1 {
+    from {
+        left:100px;
+        bottom:100px;
+        opacity:1;
+        transform: rotate(0deg);
+    }
+    to {
+        left:400px;
+        bottom:800px;
+        opacity:1;
+        transform: rotate(120deg);
+    }
+}
+#a1 {
+    animation: a1 20s forwards;
+    width:100px;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+@keyframes a2 {
+    from {
+        left:100px;
+        bottom:100px;    
+    }
+    to {
+        left:400px;
+        bottom:800px;
+    }
+}
+#a2 {
+    animation: a2 20s forwards;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+
+@keyframes b1 {
+    from {
+        right:100px;
+        top:100px;
+        opacity:1;
+        transform: rotate(0deg);
+    }
+    to {
+        right:200px;
+        top:1400px;
+        opacity:1;
+        transform: rotate(-120deg);
+    }
+}
+#b1 {
+    animation: b1 20s forwards;
+    width:300px;
+    animation-delay: 20s;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+@keyframes b2 {
+    from {
+        right:100px;
+        top:100px;    
+    }
+    to {
+        right:200px;
+        top:1400px;
+    }
+}
+#b2 {
+    animation: b2 20s forwards;
+    animation-delay: 20s;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+
+@keyframes c1 {
+    from {
+        left:50px;
+        bottom:50px;
+        opacity:1;
+        transform: rotate(0deg);
+    }
+    to {
+        left:100px;
+        bottom:1000px;
+        opacity:1;
+        transform: rotate(190deg);
+    }
+}
+#c1 {
+    animation: c1 20s forwards;
+    width:100px;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+@keyframes c2 {
+    from {
+        left:50px;
+        bottom:50px;    
+    }
+    to {
+        left:100px;
+        bottom:1000px;
+    }
+}
+#c2 {
+    animation: c2 20s forwards;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+
+@keyframes d1 {
+    from {
+        right:50px;
+        top:50px;
+        opacity:1;
+        transform: rotate(0deg);
+    }
+    to {
+        right:200px;
+        top:1400px;
+        opacity:1;
+        transform: rotate(-40deg);
+    }
+}
+#d1 {
+    animation: d1 20s forwards;
+    width:400px;
+    animation-delay: 20s;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+@keyframes d2 {
+    from {
+        right:50px;
+        top:50px;   
+    }
+    to {
+        right:200px;
+        top:1400px;
+    }
+}
+#d2 {
+    animation: d2 20s forwards;
+    animation-delay: 20s;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+
+@keyframes e1 {
+    from {
+        left:50px;
+        bottom:50px;
+        opacity:1;
+        transform: rotate(0deg);
+    }
+    to {
+        left:150px;
+        bottom:1000px;
+        opacity:1;
+        transform: rotate(180deg);
+    }
+}
+#e1 {
+    animation: e1 20s forwards;
+    width:200px;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+@keyframes e2 {
+    from {
+        left:50px;
+        bottom:50px;    
+    }
+    to {
+        left:150px;
+        bottom:1000px;
+    }
+}
+#e2 {
+    animation: e2 20s forwards;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+
+@keyframes f1 {
+    from {
+        right:50px;
+        top:50px;
+        opacity:1;
+        transform: rotate(0deg);
+    }
+    to {
+        right:200px;
+        top:1400px;
+        opacity:1;
+        transform: rotate(-120deg);
+    }
+}
+#f1 {
+    animation: f1 20s forwards;
+    width:200px;
+    animation-delay: 20s;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+@keyframes f2 {
+    from {
+        right:50px;
+        top:50px;    
+    }
+    to {
+        right:200px;
+        top:1400px;
+    }
+}
+#f2 {
+    animation: f2 20s forwards;
+    animation-delay: 20s;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+
+@keyframes g1 {
+    from {
+        left:50px;
+        bottom:100px;
+        opacity:1;
+        transform: rotate(0deg);
+    }
+    to {
+        left:200px;
+        bottom:1000px;
+        opacity:1;
+        transform: rotate(500deg);
+    }
+}
+#g1 {
+    animation: g1 25s forwards;
+    width:200px;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+@keyframes g2 {
+    from {
+        left:50px;
+        bottom:100px;
+    }
+    to {
+        left:200px;
+        bottom:1000px;
+    }
+}
+#g2 {
+    animation: g2 25s forwards;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+
+@keyframes h1 {
+    from {
+        right:50px;
+        top:50px;
+        opacity:1;
+        transform: rotate(0deg);
+    }
+    to {
+        right:200px;
+        top:1400px;
+        opacity:1;
+        transform: rotate(-120deg);
+    }
+}
+#h1 {
+    animation: h1 20s forwards;
+    width:200px;
+    animation-delay: 25s;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
+@keyframes h2 {
+    from {
+        right:50px;
+        top:50px;    
+    }
+    to {
+        right:200px;
+        top:1400px;
+    }
+}
+#h2 {
+    animation: h2 20s forwards;
+    animation-delay: 25s;
+    animation-timing-function:linear;
+    animation-fill-mode: none;
+}
